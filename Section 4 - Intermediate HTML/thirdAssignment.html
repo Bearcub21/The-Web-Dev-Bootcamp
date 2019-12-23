@@ -7,8 +7,22 @@
     <title>Pokemon Chart</title>
 </head>
 <body>
+
+    <!-- TODO: Transfer style to sheet -->
+    <style>
+        table, tr, td, th{
+            border: 2px;
+            border-style: groove;
+            text-align: center; 
+        }
+
+        td{
+            padding: 10px 10px 10px 10px;
+        }
+    </style>
+
     <h1>First Gen Pokemon Chart</h1>
-    <table id="pokeTable" border="1">
+    <table id="pokeTable">
         <thead>
             <tr>
                 <th>Name</th>
@@ -21,11 +35,21 @@
             <tr class="bulbaRow">
                 <td>Bulbasaur</td>
                 <td class="bulbaImg"><img src="http://img4.wikia.nocookie.net/__cb20140328190757/pokemon/images/thumb/2/21/001Bulbasaur.png/200px-001Bulbasaur.png" alt="Bulbasaur"></td>
-                <td></td>
-                <td></td>
+                <td>Grass/Poison</td>
+                <td><a href="http://pokemon.wikia.com/wiki/Ivysaur">Ivysaur</a></td>
             </tr>
-            <tr></tr>
-            <tr></tr>
+            <tr class="charmanRow">
+                <td>Charmander</td>
+                <td class="charmanImg"><img src="http://img4.wikia.nocookie.net/__cb20140724195345/pokemon/images/thumb/7/73/004Charmander.png/200px-004Charmander.png" alt="Charmander"></td>
+                <td>Fire</td>
+                <td><a href="http://pokemon.wikia.com/wiki/Charmeleon">Charmeleon</a></td>
+            </tr>
+            <tr class="squirtRow">
+                <td>Squirtle</td>
+                <td class="squirtImg"><img src="http://img1.wikia.nocookie.net/__cb20140328191525/pokemon/images/thumb/3/39/007Squirtle.png/200px-007Squirtle.png" alt="Squirtle"></td>
+                <td>Water</td>
+                <td><a href="http://pokemon.wikia.com/wiki/Wartortle">Wartortle</a></td>
+            </tr>
         </tbody>
     </table>
 </body>
