@@ -1,0 +1,14 @@
+    table, tr, td, th{
+        border: 2.5px;
+        border-style: double;
+        text-align: center; 
+    }
+
+    td{
+        padding: 10px 10px 10px 10px;
+    }
+
+    img{
+        width: 100px;
+        height: 100px;
+    }
