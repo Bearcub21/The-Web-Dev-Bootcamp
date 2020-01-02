@@ -4,21 +4,65 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="formAssignment.css">
     <title>Forms Assginment</title>
 </head>
 <body>
     <h1 class="mainHeading">Register</h1>
-    <form id="mainForm" action="" method="post">
+    <form id="mainForm" action="" method="POST">
         <div class="namesSection"> 
-            label for="firstName">First Name:</label>
+            <label for="firstName">First Name:</label>
             <input type="text" name="firstName" id="firstName" required placeholder="Jhon">
             <label for="lastName">Last Name:</label>
             <input type="text" name="lastName" id="lastName" required placeholder="Smith">
         </div> 
         <div class="genderSection">
-            <label for="genderRadio">Gender: </label>
-            <input type="radio" name="genderRadio" id="genderRadio">
+            <span>Gender:</span>
+            <input type="radio" name="gender" id="genderRadio" value="male" checked>
+            <label for="genderRadio">Male</label>
+            <input type="radio" name="gender" id="genderRadio" value="female">
+            <label for="genderRadio">Female</label>
+            <input type="radio" name="gender" id="genderRadio" value="other">
+            <label for="genderRadio">Other</label>
         </div>
+        <div class="emailAndPasswordSection">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="your email" required>
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" placeholder="your password" required minlength="5" maxlength="10">
+        </div>
+        <div class="birthdaySection">
+            <label for="birthdaySelect">Birthday:</label>
+            	<select name="month" id="birthdaySelect">
+                    <option selected disabled>Month</option>
+                    <option value="January">January</option>
+                    <option value="April">April</option>
+                    <option value="June">June</option>
+                    <option value="September">September</option>
+                    <option value="December">December</option>
+                </select>
+                <select name="day" id="birthdaySelect">
+                    <option disabled selected>Day</option>
+                    <option value="1">1</option>
+                    <option value="5">5</option>
+                    <option value="10">10</option>
+                    <option value="15">15</option>
+                    <option value="20">20</option>
+                </select>
+                <select name="Year" id="birthdaySelect">
+                    <option disabled selected>Year</option>
+                    <option value="1995">1995</option>
+                    <option value="2000">2000</option>
+                    <option value="2005">2005</option>
+                    <option value="2010">2010</option>
+                    <option value="2015">2015</option>
+                </select>
+                <div class="termsSection">
+                    <label for="agreeCheckBox">I agree to the <a href="#"> Terms and Conditions</a></label>
+                    <input type="checkbox" name="agreeCheckBox" id="agreeCheckBox" required>
+                </div>
+        </div>
+        <button type="submit">Submit</button>
     </form>
 </body>
 </html>
