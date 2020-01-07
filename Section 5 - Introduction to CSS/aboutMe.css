@@ -1,0 +1,33 @@
+
+
+h1{
+    color: rgb(195, 223, 118);
+    border-bottom: 2px solid rgba(111, 214, 15, 0.383);
+    width: 180px;
+}
+
+h3{
+    color: rgba(159, 154, 175, 0.431);
+    background-color: rgba(68, 161, 14, 0.424);
+    border: 1.8px solid rgba(1, 46, 16, 0.753);
+    border-radius: 5px;
+    width: 120px;
+    height: 30px;
+    text-align: center;
+}
+
+body{
+    background: url(https://jooinn.com/images/running-tap-4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+li{
+    border: 0.1px solid rgba(1, 46, 16, 0.753);
+    width: 64px;
+}
+
+#fb-icon{
+    height: 50px;
+    width: 50px;
+}
