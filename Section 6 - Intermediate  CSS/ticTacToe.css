@@ -1,0 +1,28 @@
+
+.mainHeader h1{
+    text-align: center;
+}
+
+/* General Styling of the Table */
+
+.ticTacToeTable{
+    margin: auto;
+}
+
+.ticTacToeTable td{
+    width: 100px;
+    height: 100px;
+}
+
+/* Specific Tile Syling */
+
+#topMiddleEdge, #midCenter, #botMiddleEdge{
+    border-left: 1px solid black ;
+    border-right: 1px solid black;
+}
+
+#midLeftEdge, #midCenter, #midRightEdge{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
