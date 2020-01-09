@@ -1,0 +1,13 @@
+20px gray border on body
+    border color: #bdc3c7
+body has explicit width and is centered
+date color: #3498db
+h2 color: 2c3e50
+
+font: source sans pro
+left border on blog quote turned on 
+elements alligned to left
+padding turned on
+date on all caps
+letter spacing on dates
+hr element between posts
